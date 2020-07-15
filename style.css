@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+* {
+  box-sizing:border-box;
+  font-family: 'Dancing Script', cursive;
+}
+.navbar{
+	margin: 0;
+	padding: 0;
+	/*width: 100%;*/
+}
+.navbar .container{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+.navbar .container .navbar-header{
+	width: 100%;
+	background: grey;
+}
+.navbar .container .navbar-header .navbar-toggle{
+	float: right;
+	margin: 10px;
+	height: 45px;
+	background: transparent;
+	border: 1px solid #fff;
+	transform: rotate(90deg);
+	display:none;
+}
+.navbar .container .navbar-header .navbar-toggle .icon-bar{
+	margin: 3px;
+	border: 1px solid #fff;
+	transition: 0s;
+}
+.navbar .container .navbar-header .brand{
+	float: left;
+	margin: 10px;
+}
+.navbar .container .collapse ul{
+	list-style: none;
+	margin: 2px;
+	padding: 0;
+	transition: 0s;
+	/*background: #000;*/
+}
+.navbar .container .collapse li{
+	text-align: center;
+	font-size: 24px;
+	padding: 10px;
+	color: #000;
+	font-weight: 700;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+.navbar .container .collapse li a{
+	color: #000;
+	font-weight: 800;
+}
+.navbar .container .collapse li:hover{
+	background: #000;
+}
+.navbar .container .collapse li:hover a{
+	color: #fff;
+	font-weight: 800;
+}
+.heading{
+	text-align: center;
+	padding: 10px;
+	font-size: 4em;
+	color: #c30000; 
+}
+p{
+	margin-top: 10px;
+	margin-border:15px;
+	padding-left: 10px; 
+}
+
+#h21{
+	text-align: center;
+	padding: 10px;	
+}
+#h22{
+	text-align: center;
+	padding: 10px;	
+}
+#h23{
+	text-align: center;
+	padding: 10px;
+}
+
+#p1{
+	border: 1px solid #000;
+	background-color: #808080;
+	float:left;
+	margin: 10px;
+	/*width: 31%;*/
+	/*float: left;*/
+	text-align: justify;
+	padding: 10px;
+
+}
+#p2{
+	border: 1px solid #000;
+	background-color: #808080;
+	float: left;
+	margin: 10px;
+	/*width: 31%;*/
+	/*float: left;*/
+	text-align: justify;
+	padding: 10px;
+}
+#p3{
+	border: 1px solid #000;
+	background-color: #808080;
+	/*float: left;*/
+	margin: 10px;
+	/*width: 31%;*/
+	float: left;
+	text-align: justify;
+	padding: 10px;
+}
+@media(max-width: 767px)
+{
+	.navbar .container .navbar-header .navbar-toggle{
+		display:block;
+	}
+}
